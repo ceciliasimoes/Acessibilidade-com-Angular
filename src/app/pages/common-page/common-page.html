@@ -1,0 +1,42 @@
+<section class="component-section" aria-labelledby="section-title">
+  <button
+    class="back-button"
+    (click)="router.navigate(['/'])"
+    aria-label="Voltar para a tela principal"
+  >
+    ← Voltar
+  </button>
+
+  <h2 id="section-title" class="section-title">Componentes Não Acessíveis</h2>
+
+  <div class="component-flex">
+    <div class="component-card breadcrumb-card">
+      <h3 class="card-title">Breadcrumb</h3>
+      <no-accessible-breadcrumb></no-accessible-breadcrumb>
+    </div>
+    <div class="component-card">
+      <h3 class="card-title">Accordion</h3>
+      <no-accessible-accordion></no-accessible-accordion>
+    </div>
+
+    <div class="component-card">
+      <h3 class="card-title">Button</h3>
+      <no-accessible-button></no-accessible-button>
+    </div>
+
+    <div class="component-card">
+      <h3 class="card-title">Carousel</h3>
+      <no-accessible-carousel></no-accessible-carousel>
+    </div>
+
+    <div class="component-card">
+      <h3 class="card-title">Checkbox</h3>
+      <no-accessible-checkbox></no-accessible-checkbox>
+    </div>
+
+    <div class="component-card">
+      <h3 class="card-title">Tabs</h3>
+      <no-accessible-tabs></no-accessible-tabs>
+    </div>
+  </div>
+</section>
